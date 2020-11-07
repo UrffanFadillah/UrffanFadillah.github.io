@@ -1,0 +1,122 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .banner h1 {
+    font-size: 1.2em;
+  }
+  .about-me,
+  .education {
+    font-size: 0.8em;
+  }
+  footer {
+    background-color: white;
+  }
+}
+
+.dark {
+  background-color: rgb(8, 8, 8);
+  color: rgb(233, 233, 233);
+}
+
+footer.dark-footer {
+  background-color: rgb(8, 8, 8);
+}
+
+#main {
+  height: 50vh;
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+  color: #5c5c5c;
+}
+
+body.dark {
+  font-family: "Source Code Pro", monospace;
+  color: #e2e2e2;
+}
+
+h1,
+h2,
+.bio p {
+  font-family: "Source Code Pro", monospace;
+  /* color: #5c5c5c; */
+}
+
+.dark-mode {
+  cursor: pointer;
+}
+
+.dark-mode:hover {
+  color: #5c5c5cc4;
+}
+
+.paragraf {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.4em;
+  /* color: #5c5c5c; */
+}
+
+.about-me,
+.education {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.3em;
+  /* color: #5c5c5c; */
+  cursor: pointer;
+}
+
+.about-me:hover,
+.education:hover {
+  color: #303030;
+}
+
+.bio {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.3em;
+  /* color: #5c5c5c; */
+}
+
+a.facebook {
+  color: #3a34eb;
+  text-decoration: none;
+}
+
+a.facebook:hover {
+  color: #3a34ebc4;
+}
+
+a.instagram {
+  color: #eb34dc;
+  text-decoration: none;
+}
+
+a.instagram:hover {
+  color: #eb34dcc4;
+}
+
+a.github {
+  color: #3d3d3d;
+  text-decoration: none;
+}
+
+a.github:hover {
+  color: #3d3d3dc4;
+}
+
+a.dark-github {
+  color: #979797;
+  text-decoration: none;
+}
+
+a.twitter {
+  color: #61bdff;
+  text-decoration: none;
+}
+
+a.twitter:hover {
+  color: #61bdffc4;
+}
